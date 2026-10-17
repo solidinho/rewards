@@ -161,7 +161,7 @@ function atualizarContinuar() {
   const liberado = etapaLiberada(etapa + 1);
   botao.disabled = !liberado;
   botao.textContent = liberado ? "CONTINUAR"
-    : etapa === 3 ? "SELECIONE A CAPTURA PARA CONTINUAR" : "COPIE O LINK PARA CONTINUAR";
+    : etapa === 3 ? "SELECIONE A CAPTURA PARA CONTINUAR" : "COMPARTILHE PARA CONTINUAR";
 }
 
 function atualizarNavegacao() {
